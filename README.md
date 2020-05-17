@@ -15,4 +15,6 @@ The script can also be run in a 'help' mode. This mode displays the parameters s
 python main.py --help
 ```
 
-This script reserves a specified number of rows to be used as test data and the rest is to be used as training data. The script trains a convolutional neural network that is given in 'nn_class.py' . The script loops over the specified number of training epochs and calculates the loss for both the training data and the test data. 
+This script reserves a specified number of rows to be used as test data and the rest is to be used as training data. The script trains a convolutional neural network that is given in 'nn_class.py' . The script loops over the specified number of training epochs and calculates the loss for both the training data and the test data. This loss is ouput into 'output.csv' .
+
+The neural netork is specified in a class 'nn_class.py' . This neural network consists of two convolutional layers and two fully connected layers. The convolutional layers are pooled and then flattened before the data is passed to the fully connected layers. This neural network is trained using back propagation.
