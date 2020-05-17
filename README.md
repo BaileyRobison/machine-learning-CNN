@@ -4,7 +4,7 @@ Machine learning exercise
 
 A convolutional neural network in pytorch that distinguishes even digits (0, 2, 4, 6, or 8) from the MNIST data set.
 
-The main part of this project is 'main.py' . This script will read data from even_mnist.csv . This dataset is created from the MNIST dataset by fitlering out odd number. This leaves only 0, 2, 4, 6, and 8 to classify. The images are reduced from 28x28 to 14x14. Each row in the data file is a flattened 14x14 image and the correct label. The script also reads relevant parameters (e.g. learning rate, number of training epochs). The use needs to specify the path to the parameter file as a command line argument. To run this script use
+The main part of this project is 'main.py' . This script will read data from even_mnist.csv . This dataset is created from the MNIST dataset by fitlering out odd number. This leaves only 0, 2, 4, 6, and 8 to classify. The images are reduced from 28x28 to 14x14. Each row in the data file is a flattened 14x14 image and the correct label. The script also reads relevant parameters (e.g. learning rate, number of training epochs). The user needs to specify the path to the parameter file as a command line argument. To run this script use
 
 ```
 python main.py param/param_file.json
